@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    overflow-x: hidden;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease;
+    transform: translateX(-200px);
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .show-sidebar {
+    transform: translateX(0);
+  }
+  
+  #toggleButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  
+  
+  
